@@ -1,0 +1,60 @@
+#meus-filmes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#meus-filmes h1{
+    margin-bottom: 30px;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    padding: 0;
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+span{
+    font-size: 23px;
+}
+button{
+    margin-left:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+    
+}
+
+ button:hover{
+    background-color: brown;
+    color: #FFF;
+}
+
+ul li div a{
+    text-decoration: none;
+    color: #000F;
+    background-color: #efefef;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+ul li div a:hover{
+    color:#efefef;
+    background-color: brown;
+    
+}

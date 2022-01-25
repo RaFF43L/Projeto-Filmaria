@@ -1,0 +1,29 @@
+.notfound{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:30px;
+}
+.notfound h1,h2{
+    margin-bottom: 10px;
+    color:#000
+    
+}
+
+.notfound a{
+    text-decoration: none;
+    color: #000F;
+    background-color: #efefef;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.notfound a:hover{
+    color:#efefef;
+    background-color: brown;
+    
+}
