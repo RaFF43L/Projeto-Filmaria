@@ -1,3 +1,6 @@
+Project of a movie website, with the idea of using the youtube search for a trailer and being able to add the movie to a favorite. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
